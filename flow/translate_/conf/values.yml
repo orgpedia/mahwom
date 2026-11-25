@@ -1,0 +1,29 @@
+# Written by `mahdept values` from department.yml (make does it before every docflow command): never edit it here.
+# flow.yml puts these in for ${name} when it loads (orgpedia/doc specs/docflow.md §P4a).
+data:
+  profiles: mh_gr-1
+  registry: empty
+  memory: empty
+profiles: mh_gr-1
+masthead_names: महिला\s*व\s*बाल\s*विकास\s*विभाग
+masthead_words: महिला
+max_pages: 20
+ocr: none
+department:
+  code: mahwom
+  kind: department
+  names:
+    en: Women and Child Development Department
+  masthead:
+    names:
+    - महिला व बाल विकास विभाग
+  max_pages: 20
+  cloud_vision_budget: 0.75
+  ocr: none
+  set_aside:
+    rules: []
+  shared_lists: LFS/mahGRs/flow/mahwom/common
+  data:
+    profiles: mh_gr-1
+    registry: empty
+    memory: empty
